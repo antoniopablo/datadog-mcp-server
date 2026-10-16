@@ -1,7 +1,7 @@
 [project]
 name = "datadog-mcp-server"
 version = "0.1.0"
-description = "MCP server that lets Claude inspect Datadog usage and answer cost questions, by an ex-Datadog SRE."
+description = "MCP server that lets Claude inspect Datadog usage and answer cost questions, by a former Datadog Solutions Engineer."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }

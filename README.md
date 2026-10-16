@@ -1,6 +1,6 @@
 # Datadog Cost MCP Server
 
-**An [MCP](https://modelcontextprotocol.io) server that lets Claude (or any MCP client) inspect a Datadog org's usage and answer cost questions in plain English — written by an ex-Datadog SRE.**
+**An [MCP](https://modelcontextprotocol.io) server that lets Claude (or any MCP client) inspect a Datadog org's usage and answer cost questions in plain English — written by a former Datadog Solutions Engineer.**
 
 Instead of clicking through the Plan & Usage pages, you ask:
 
@@ -26,7 +26,7 @@ The server exposes these tools to the model:
 
 Every tool returns structured data **plus** a short `advice` string, so the model can explain the finding and the remediation in one step.
 
-## Why an ex-Datadog SRE built this
+## Why I built this
 
 Cost tooling that just dumps numbers isn't useful — you need to know *which* number is the anomaly and *what to do about it*. Each tool here encodes the heuristics I use in real audits (cardinality thresholds, "read <5% of indexed logs" rule of thumb, zombie-host detection), so the model gives an SRE's answer, not a spreadsheet.
 
@@ -92,7 +92,7 @@ Claude: [calls top_custom_metrics]
 
 ## Author
 
-Antonio García — ex-Datadog SRE, cloud/observability cost audits across Europe.
+Antonio García — former Datadog Solutions Engineer (2021–2023), now an SRE / observability freelancer based in Spain.
 Contact: antoniopablo.garlopez@hotmail.com · [Malt](https://en.malt.es/profile/antoniogarcia1)
 
 ## License

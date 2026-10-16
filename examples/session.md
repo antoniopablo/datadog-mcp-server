@@ -33,7 +33,8 @@ Those tags multiply series count without adding queryable value.
 **Claude:** *(calls `estimate_metric_savings`, current_series=31000, projected_series=180)*
 - Series removed: **30,820** (**99.4%** reduction)
 - Estimated saving: **~€15.41/month** at list price for that one metric — and it scales:
-  the same fix across your top offenders is where the 30–60% total reduction comes from.
+  applying the same fix to your other top offenders is where most of the reduction usually
+  comes from. Measure your own baseline before promising a number.
 
 Apply it as a tag configuration (Metrics without Limits) committed to your Terraform,
 so it doesn't regress.

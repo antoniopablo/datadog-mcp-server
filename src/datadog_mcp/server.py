@@ -2,7 +2,7 @@
 
 Exposes read-only Datadog usage/cost tools to any MCP client (e.g. Claude).
 Each tool returns structured data plus an `advice` field encoding the
-heuristics an ex-Datadog SRE would apply in a real cost audit.
+heuristics I apply in real Datadog cost reviews.
 """
 from __future__ import annotations
 
